@@ -1,0 +1,4 @@
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+<IP_ADDRESS>         <IP_ADDRESS>   <IP_ADDRESS>         UG    100    0        0 eth0
+<IP_ADDRESS>   <IP_ADDRESS>         <IP_ADDRESS>   U     100    0        0 eth0

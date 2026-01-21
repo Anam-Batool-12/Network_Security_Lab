@@ -1,0 +1,27 @@
+# Ignore everything by default
+*
+
+# Allow directories
+!*/
+
+# Allow markdown and docs
+!*.md
+
+# Allow scripts
+!*.sh
+
+# Allow sanitized outputs ONLY
+!*_sanitized.txt
+
+# Allow repo metadata files
+!.gitignore
+!README.md
+!methodology.md
+!tools_used.md
+!requirements_sanitized.txt
+
+# Explicitly block dangerous files
+*.pcap
+*.raw
+requirements.txt
+

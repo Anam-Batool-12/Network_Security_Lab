@@ -1,0 +1,9 @@
+Starting Nmap 7.98 ( https://nmap.org ) at 2026-01-20 23:57 -0500
+Nmap scan report for <IP_ADDRESS>
+Host is up (0.00038s latency).
+
+PORT   STATE    SERVICE
+22/tcp filtered ssh
+MAC Address: <MAC_ADDRESS> (Intel Corporate)
+
+Nmap done: 1 IP address (1 host up) scanned in 1.08 seconds

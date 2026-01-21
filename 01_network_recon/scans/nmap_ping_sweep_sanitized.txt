@@ -1,0 +1,13 @@
+# Nmap 7.98 scan initiated Mon Jan 19 04:07:10 2026 as: /usr/lib/nmap/nmap --privileged -sn -oN nmap_ping_sweep.txt <IP_ADDRESS>/24
+Nmap scan report for <IP_ADDRESS>
+Host is up (0.0041s latency).
+MAC Address: <MAC_ADDRESS> (Huawei Technologies)
+Nmap scan report for <IP_ADDRESS>
+Host is up (0.013s latency).
+MAC Address: <MAC_ADDRESS> (Unknown)
+Nmap scan report for <IP_ADDRESS>
+Host is up (0.00040s latency).
+MAC Address: <MAC_ADDRESS> (Intel Corporate)
+Nmap scan report for <IP_ADDRESS>
+Host is up.
+# Nmap done at Mon Jan 19 04:07:14 2026 -- 256 IP addresses (4 hosts up) scanned in 4.07 seconds

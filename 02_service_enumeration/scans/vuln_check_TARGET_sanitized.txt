@@ -1,0 +1,19 @@
+# Nmap 7.98 scan initiated Wed Jan 21 00:08:32 2026 as: /usr/lib/nmap/nmap --privileged --script vuln -oN scans/vuln_check_<IP_ADDRESS>.txt <IP_ADDRESS>
+Nmap scan report for <IP_ADDRESS>
+Host is up (0.00091s latency).
+Not shown: 994 filtered tcp ports (no-response)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+902/tcp  open  iss-realsecure
+912/tcp  open  apex-mesh
+5357/tcp open  wsdapi
+MAC Address: <MAC_ADDRESS> (Intel Corporate)
+
+Host script results:
+|_smb-vuln-ms10-054: false
+|_samba-vuln-cve-2012-1182: Could not negotiate a connection:SMB: Failed to receive bytes: ERROR
+|_smb-vuln-ms10-061: Could not negotiate a connection:SMB: Failed to receive bytes: ERROR
+
+# Nmap done at Wed Jan 21 00:09:03 2026 -- 1 IP address (1 host up) scanned in 31.33 seconds

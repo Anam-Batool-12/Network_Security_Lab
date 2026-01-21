@@ -1,0 +1,9 @@
+# Nmap 7.98 scan initiated Mon Jan 19 04:11:36 2026 as: /usr/lib/nmap/nmap -sU -oN udp_scan.txt <IP_ADDRESS>
+Nmap scan report for <IP_ADDRESS>
+Host is up (0.00099s latency).
+Not shown: 999 open|filtered udp ports (no-response)
+PORT    STATE SERVICE
+137/udp open  netbios-ns
+MAC Address: <MAC_ADDRESS> (Intel Corporate)
+
+# Nmap done at Mon Jan 19 04:11:41 2026 -- 1 IP address (1 host up) scanned in 5.56 seconds
